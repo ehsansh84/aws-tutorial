@@ -11,7 +11,6 @@ app = FastAPI()
 @app.get("/")
 async def read_root():
     return {"Hello": "World"}
-
 ```
 - Save the code in a file named `app.py`.
 - Install the `awscli` package and configure it with your AWS credentials.
